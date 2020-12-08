@@ -9,7 +9,7 @@ export const ItemListContainer = (props) => {
                 <h1>Lista de productos</h1>
             </Row>
             <Row>
-                {props.greeting}
+                <p style={{color:'blueviolet'}}>{props.greeting}</p>
             </Row>
             
         </Container>
