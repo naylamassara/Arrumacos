@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import (BrowserRouter,Switch,Route)
-import NavBar from './componets/global/NavBar'
-import ItemListContainer from './containers/ItemListContainer'
+import NavBar from './componets/global/NavBar';
+import ItemListContainer from './containers/ItemListContainer';
 import Itemcount from './componets/store/Itemcount';
 import CoverPage from './componets/home/CoverPage';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter,Switch,Route } from 'react-router-dom';
 
 function App() {
   return (
